@@ -49,8 +49,8 @@ cat-dog-classification/
 Dataset
 The model is trained on a dataset of cat and dog images. You can use your own dataset or download one from Kaggle.
 
-Training Data: data/train/cat and data/train/dog
+Training Data: data/train/cat and data/train/dog -> which model train on it 
 
-Testing Data: data/test/cat and data/test/dog
+Testing Data: data/test/cat and data/test/dog -> which model tested by it
 
-Online-img: /kaggle/input/user-data
+Online-img: /kaggle/input/user-data -> user can pass its pass at the last cell to test the model
