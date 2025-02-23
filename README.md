@@ -29,28 +29,35 @@ Total params: 2,421,081
 Trainable params: 164,097
 Non-trainable params: 2,256,984
 
-cat-dog-classification/
-├── data/
-│   ├── train/
-│   │   ├── cat/
-│   │   └── dog/
-│   └── test/
-│       ├── cat/
-│       └── dog/
-├── models/
-│   └── cat_dog_model.h5
-├── predict_image.py
-├── train.py
-├── requirements.txt
-├── README.md
-└── LICENSE
+datasets/
+├── json-file14/
+│   ├── kaggle.json
+├── user-data/
+│   ├── cat.jpg
+│   ├── dog.jpg
+│   ├── dog2.jpg
+│   ├── luca1.jpg
+│   ├── luca2.jpg
+│   ├── luca3.jpg
+│   ├── peter-cat.jpg
+└── output (2.5GiB / 19.5GiB)/
+    ├── kaggle/working/
+    │   ├── dogs-vs-cats.zip
+    │   ├── sampleSubmission.csv
+        ├── test1/
+    │   ├── test1.zip
+    │   ├── train/
+    │   ├── train.zip
+
 
 
 Dataset
 The model is trained on a dataset of cat and dog images. You can use your own dataset or download one from Kaggle.
 
-Training Data: data/train/cat and data/train/dog -> which model train on it 
+Training Data: /kaggle/working/train -> which model train on it 
 
-Testing Data: data/test/cat and data/test/dog -> which model tested by it
+Testing Data: /kaggle/working/test1 -> which model tested by it
 
 Online-img: /kaggle/input/user-data -> user can pass its pass at the last cell to test the model
+
+
