@@ -44,7 +44,7 @@ datasets/
     ├── kaggle/working/
     │   ├── dogs-vs-cats.zip
     │   ├── sampleSubmission.csv
-        ├── test1/
+    │   ├── test1/
     │   ├── test1.zip
     │   ├── train/
     │   ├── train.zip
