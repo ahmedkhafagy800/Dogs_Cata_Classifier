@@ -1,5 +1,5 @@
 # Cat and Dog Image Classification
-# Run using kaggle notebook: 
+# Run using kaggle notebook
 https://www.kaggle.com/docs/notebooks
 
 ## Overview
