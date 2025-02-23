@@ -1,4 +1,6 @@
 # Cat and Dog Image Classification
+# Run using kaggle notebook: 
+https://www.kaggle.com/docs/notebooks
 
 ## Overview
 This project is a computer vision model that classifies images into two categories: **cats** and **dogs**. The model is built using TensorFlow and Keras, with MobileNetV2 as the base architecture. It is designed to predict whether an input image contains a cat or a dog.
